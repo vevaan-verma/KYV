@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f85917c1f3110624db5f7705e4ad1cdc, type: 3}
+  m_Name: PlayerProjectileData
+  m_EditorClassIdentifier: 
+  name: Chucking Cheese
+  abilityType: 3
+  description: Throw a piece of cheese at the enemy (Right Click, 1 energy). This
+    is really a reward for them
+  icon: {fileID: 21300000, guid: 8f495d1e25445084894a92f9a6c57736, type: 3}
+  baseCost: 25
+  roundCostIncrement: 4

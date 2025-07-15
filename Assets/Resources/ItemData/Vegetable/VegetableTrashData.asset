@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc12e04f899ac95428e3ac9d1d40a98e, type: 3}
+  m_Name: VegetableTrashData
+  m_EditorClassIdentifier: 
+  name: Trash
+  description: Don't ask questions you don't want answers to
+  category: 1
+  icon: {fileID: 21300000, guid: b20b9d8d15c50004499e81e897e29c47, type: 3}
+  hasPositiveStat: 1
+  positiveBaseStat:
+    statType: 3
+    value: 15
+  hasNegativeStat: 1
+  negativeBaseStat:
+    statType: 2
+    value: 15
+  grantByDefault: 1
